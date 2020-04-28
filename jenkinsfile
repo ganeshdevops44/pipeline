@@ -5,11 +5,7 @@ pipeline {
             steps {
                 sh 'echo "Fail!"'
             }
-         stage('Test') {
-              steps {
-                 sh 'echo "PASS!"'
-            }
+        
         }
     }
-}
 }
